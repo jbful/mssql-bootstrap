@@ -1,0 +1,18 @@
+:setvar dbname			"SETTINGS_MGR"
+
+:setvar dmluser			"settings_mgr_rw"
+:setvar dmlPWD			"0x020027E1CC844873B5251B96EC978A029A1237F6C8939890AD23ED1B2F09A5A02A010486B355869AE4356A24AB72E20B526496181D429ED577DB44701AFAE3175DF584B144C8"
+
+:setvar ddluser			"settings_mgr_ddl"
+:setvar ddlPWD			"0x020083C5AE4932304FA4148570AC4433F66D00C89CD110C5FDAED1CA5FED99218A7D471D12B81654A373C56BDA7B6560D4EE8A48E56422F1A378EB61A7B0932525A2BEFE4B14"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql
+

@@ -1,0 +1,18 @@
+:setvar dbname			"END_LINK_MANAGER"
+
+:setvar dmluser			"end_link_r/w"
+:setvar dmlPWD			"0x020012BE14B103ACBE2DED3154A9850987B6DECA8260765168906A97429EAA0FD3CB108C2AA09DA202EB58D6053435FB636E210014F1BC4C6548A25350F9DA42B6F4245157C8"
+
+:setvar ddluser			"end_link_schema"
+:setvar ddlPWD			"0x020097B403DAE10C7F36719162E66E7EDD93EB5CA9C6236E866A9A9C20F6B6AFEE07E56B7BFE03357DFA00E7207417ACDFCE33B00428936F6B457FF161AD3D2099899852B8D5"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql
+

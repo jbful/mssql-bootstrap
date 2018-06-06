@@ -1,0 +1,17 @@
+:setvar dbname			"Composer"
+
+:setvar dmluser			"Composer_app"
+:setvar dmlPWD			"0x02008A2058CBB4B3620C1DD16A2830E1CBC1A0501FDBE1AADB2EE78E7F5B549E75A7CD232015663443FA208E89BFD3C70BA29247B3AF36DEF662A74905094C34AB898B50D596"
+
+:setvar ddluser			"Composer_ddl"
+:setvar ddlPWD			"0x0200FEF44260670F5DFC42DFC2E6147D22C2A47E7FECC6DF7EE72D23D4202F43EC0134B2600637D4D9B21735D08AA8FF8DF5A24D70D59404A9C8B12989CE04B857C3C4A7C253"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql

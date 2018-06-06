@@ -1,0 +1,17 @@
+:setvar dbname			"AETNA"
+
+:setvar dmluser			"aetna_r/w"
+:setvar dmlPWD			"0x02008C2A99BE039372A53741259D8FD429DCC50DEAA815AF36780AF0E212DAFE3C9B031F15C156DA4CA5E3EE9E442A7855B57E7B33B6CE1EFD7A4912CCB89D428DD35607C417"
+
+:setvar ddluser			"aetna_schema"
+:setvar ddlPWD			"0x02000C664F8339F99715C6FE76E39113E39BBAAB2C6AF2D0227C4E7EBD34382EA9C18063C41DACAE7FF98B4972DA69D0EBEA4B3162EFA68BAF94D73D0E4130BA4323BBACB395"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql

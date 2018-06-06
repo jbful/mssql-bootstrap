@@ -1,0 +1,18 @@
+:setvar dbname			"UTDVersionGateway"
+
+:setvar dmluser			"UTDVersionGateway_app"
+:setvar dmlPWD			"0x02002541DE69923947E11C273CC9D1291D3D115C91791944BD330A0D28467729EEEA2A08CFF46142404F192B70A2A88D8A0AA097B80FFEE2504BC8B09F0095216CFF489EBE3D"
+
+:setvar ddluser			"UTDVersionGateway_ddl"
+:setvar ddlPWD			"0x0200FEF44260670F5DFC42DFC2E6147D22C2A47E7FECC6DF7EE72D23D4202F43EC0134B2600637D4D9B21735D08AA8FF8DF5A24D70D59404A9C8B12989CE04B857C3C4A7C253"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql
+

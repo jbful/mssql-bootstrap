@@ -1,0 +1,18 @@
+:setvar dbname			"GlobalOptOut"
+
+:setvar dmluser			"globaloptout_r/w"
+:setvar dmlPWD			"0x02005378D8CCBB2AF154761FDD14BE050DF52F58C006FEBE383C43FAABC7A34A0AA16CB6AA5BF70195FC1B8807ADAECE803DC00BC59A4426222C92CB8A573A7DD15AACDC33AF"
+
+:setvar ddluser			"globaloptout_schema"
+:setvar ddlPWD			"0x0200D1FD79D649F28D4D751862ADA99BB81A5549034C5DDA6378A8DAB1C955674999E1A9FE0B2C03EBB16BAA88BAE8029A7A26B95006D6EB6BBF706D67A3AED9850553BE4477"
+
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql

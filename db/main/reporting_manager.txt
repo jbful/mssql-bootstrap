@@ -1,0 +1,18 @@
+:setvar dbname			"REPORTING_MANAGER"
+
+:setvar dmluser			"reporting_manager_app"
+:setvar dmlPWD			"0x0200C8A3F194FAC6AB6C30C8A34D900E518958BCB92BF622D048897A3ADC857EB88B570DA753B06C74DCCAED6E14475CDFB2719F7E45471142550C677F8B01376396B49C2B46"
+
+:setvar ddluser			"reporting_manager_ddl"
+:setvar ddlPWD			"0x0200C702DB6AAEC9A3F0A6E15994394B8D772438AC8FE9ECE0FC9A6E84BF30C67A84139B1F40F3263D33E31BAABB5B72CE8CB48701E29CA00D4947F1FC1924C793040B15E338"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql
+
