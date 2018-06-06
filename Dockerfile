@@ -5,4 +5,5 @@ MAINTAINER bfultz@emmisolutions.com
 #COPY entrypoint.sh /
 #COPY db /sqlbootstrap
 #WORKDIR /sqlbootstrap
-CMD ["/entrypoint.sh"]
+#CMD ["/entrypoint.sh"]
+CMD ["opt/mssql/bin/sqlservr & /bin/bash"]
