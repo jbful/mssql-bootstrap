@@ -1,0 +1,16 @@
+:setvar dbname			"EPLAYER_TRACKING"
+
+:setvar dmluser                 "EPLAYER_APP"
+:setvar dmlPWD                  "0x020040E56F9D11FB0A17451F76159FEA04F55FE91DB38ECCB419DDC00DA8BCF688AC6BED96233E6E538311B041ACBD97D3146526D7C05A25656EF90B1FF9B00CE697E5FF1FC8"
+
+:setvar ddluser			"EPLAYER_DDL"
+:setvar ddlPWD			"0x0200667CDF0961BDAC84C723D31A96696F70D8205BAF34474C40724EB9DE59E0CD3D0BA5A1B355135B1AC71DAB67D331D094AED3F6B3C0824CCE9C4B4DB3370D101702795E14"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql

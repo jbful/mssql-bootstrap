@@ -1,8 +1,6 @@
 FROM microsoft/mssql-server-linux:2017-CU7
-ENV ACCEPT_EULA Y
-ENV SA_PASSWAORD p@ssword
+MAINTAINER bfultz@emmisolutions.com
 COPY entrypoint.sh /
 COPY db /sqlbootstrap
 WORKDIR /sqlbootstrap
-#CMD ["/entrypoint.sh"]
-CMD [ "/opt/mssql/bin/sqlservr" ]
+CMD ["/entrypoint.sh"]

@@ -1,0 +1,18 @@
+:setvar dbname			"ASSET_MANAGER"
+
+:setvar dmluser			"asset_manager_app"
+:setvar dmlPWD			"kHVIoawNO4YLCYHShENU"
+
+:setvar ddluser			"asset_manager_ddl"
+:setvar ddlPWD			"c1W98EjDn5YJdfv316SO"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode		"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql
+

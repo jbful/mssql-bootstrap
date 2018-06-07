@@ -1,0 +1,18 @@
+:setvar dbname			"ORCHESTRATOR"
+
+:setvar dmluser			"orchestrator_r/w"
+:setvar dmlPWD			"0x020022943F687FE82FA2C9836A4BAE5FA571939AA389F64439DF18BE46E4C924EF393E9CFAA7445B5B38F4C997108F423F1C11FCF5AE246E1D06D77F16A7F410976464E58959"
+
+:setvar ddluser			"orchestrator_schema"
+:setvar ddlPWD			"0x0200E6F291ECDC184A1E9ABA5D944F76A14C8139F1FC6C4A8EEFA1989BED4C8530E962CD7612186CBB5DBFE6314BF2F50E3EA3C2B2CFBDB831E6E4FAD15447378ABECAB880F1"
+
+:setvar rouser			""
+:setvar roPWD			""
+
+:setvar recoveryMode	"simple"
+:setvar collate			"SQL_Latin1_General_CP1_CI_AS"		
+:setvar dataFolder		""
+:setvar logFolder		""
+
+:r $(workingDir)/standard_3user_ddl_dml_ro.sql
+
