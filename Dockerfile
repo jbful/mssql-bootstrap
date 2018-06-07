@@ -5,4 +5,4 @@ COPY entrypoint.sh /
 COPY db /sqlbootstrap
 WORKDIR /sqlbootstrap
 #CMD ["/entrypoint.sh"]
-CMD ["/opt/mssql/bin/sqlservr & /bin/bash"]
+CMD [ "/opt/mssql/bin/sqlservr" ]
